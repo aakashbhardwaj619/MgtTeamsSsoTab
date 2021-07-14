@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "id": "bdc4a8b0-df4d-11eb-b659-371defeaaf00",
+  "version": "1.0.0",
+  "packageName": "mgtssosample",
+  "developer": {
+    "name": "Aakash Bhardwaj",
+    "websiteUrl": "https://a190590bcdf3.ngrok.io",
+    "privacyUrl": "https://a190590bcdf3.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://a190590bcdf3.ngrok.io/tou.html"
+  },
+  "name": {
+    "short": "MGTSSOSample",
+    "full": "MGTSSOSample"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "ff928ea2-9551-4b2c-bbc9-a084021667df",
+      "name": "MGTSSO",
+      "contentUrl": "https://a190590bcdf3.ngrok.io/mgtssoTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "a190590bcdf3.ngrok.io"
+  ],
+  "showLoadingIndicator": false,
+  "isFullScreen": false
+}

@@ -1,0 +1,12 @@
+{
+  "generator-teams": {
+    "promptValues": {
+      "developer": "Aakash Bhardwaj",
+      "unitTestsEnabled": false,
+      "lintingSupport": false,
+      "useAzureAppInsights": false
+    },
+    "libraryName": "mgtssoSample",
+    "generator-version": "3.2.0"
+  }
+}
