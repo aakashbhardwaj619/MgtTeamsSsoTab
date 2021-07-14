@@ -6,9 +6,9 @@
   "packageName": "mgtssosample",
   "developer": {
     "name": "Aakash Bhardwaj",
-    "websiteUrl": "https://a190590bcdf3.ngrok.io",
-    "privacyUrl": "https://a190590bcdf3.ngrok.io/privacy.html",
-    "termsOfUseUrl": "https://a190590bcdf3.ngrok.io/tou.html"
+    "websiteUrl": "https://59df51d56263.ngrok.io",
+    "privacyUrl": "https://59df51d56263.ngrok.io/privacy.html",
+    "termsOfUseUrl": "https://59df51d56263.ngrok.io/tou.html"
   },
   "name": {
     "short": "MGTSSOSample",
@@ -28,7 +28,7 @@
     {
       "entityId": "ff928ea2-9551-4b2c-bbc9-a084021667df",
       "name": "MGTSSO",
-      "contentUrl": "https://a190590bcdf3.ngrok.io/mgtssoTab/?name={loginHint}&tenant={tid}&theme={theme}",
+      "contentUrl": "https://59df51d56263.ngrok.io/mgtssoTab/?name={loginHint}&tenant={tid}&theme={theme}",
       "scopes": [
         "personal"
       ]
@@ -42,8 +42,12 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "a190590bcdf3.ngrok.io"
+    "59df51d56263.ngrok.io"
   ],
   "showLoadingIndicator": false,
-  "isFullScreen": false
+  "isFullScreen": false,
+  "webApplicationInfo": {
+    "id": "d9c71e8b-c8d8-48d2-81e6-f5e651221a47",
+    "resource": "api://59df51d56263.ngrok.io/d9c71e8b-c8d8-48d2-81e6-f5e651221a47"
+  }
 }

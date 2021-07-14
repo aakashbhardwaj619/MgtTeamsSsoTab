@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useTeams } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 import { HttpMethod, TeamsSSOProvider } from '@microsoft/mgt-teams-sso-provider';
-import { Providers, Person } from "@microsoft/mgt-react";
+import { Providers, Person, PeoplePicker } from "@microsoft/mgt-react";
 
 /**
  * Implementation of the MGTSSO content page
@@ -13,10 +13,10 @@ export const MgtssoTab = () => {
     TeamsSSOProvider.microsoftTeamsLib = microsoftTeams;
     Providers.globalProvider = new TeamsSSOProvider({
         clientId: 'd9c71e8b-c8d8-48d2-81e6-f5e651221a47',
-        authPopupUrl: 'https://a190590bcdf3.ngrok.io/MgtAuth/index.html',
+        authPopupUrl: 'https://59df51d56263.ngrok.io/MgtAuth/index.html',
         ssoUrl: 'https://teamsssoobofa.azurewebsites.net/api/TeamsSsoObo?code=xX81Oz4ad1LKpkSrRm9AJZzSq4Ftmc9GCxPZr06zdnqquhib65o6ew==',
         httpMethod: HttpMethod.POST
-    }) as any;
+    });
 
     const [{ inTeams, theme, context }] = useTeams();
     const [entityId, setEntityId] = useState<string | undefined>();
@@ -52,6 +52,7 @@ export const MgtssoTab = () => {
                             <Text content={entityId} />
                         </div>
                         <Person personQuery="me"></Person>
+                        <PeoplePicker></PeoplePicker>
                         <div>
                             <Button onClick={() => alert("It worked!")}>A sample button</Button>
                         </div>

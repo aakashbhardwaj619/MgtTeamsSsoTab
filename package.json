@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@fluentui/react-northstar": "~0.56.0",
-    "@microsoft/mgt-react": "^2.3.0-next.teamsprovider.6ffd83f",
-    "@microsoft/mgt-teams-sso-provider": "^2.3.0-next.teamsprovider.6ffd83f",
+    "@microsoft/mgt-react": "2.3.0-next.teamsprovider.6ffd83f",
+    "@microsoft/mgt-teams-sso-provider": "2.3.0-next.teamsprovider.6ffd83f",
     "@microsoft/teams-js": "^1.10.0",
     "axios": "^0.21.1",
     "botbuilder": "4.11.1",
